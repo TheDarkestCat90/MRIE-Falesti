@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MRIE „Lazăr Dubinovschii”</title>
+    
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"> 
+        <link rel="icon" href="../resouces/icon.png">
+        <link rel="stylesheet" href="../css/lightbox.css">
+        
+        <script src="../js/index.js"></script>
+        <script src="../js/lightbox-plus-jquery.js" defer></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="https://kit.fontawesome.com/a21a95ff14.js" crossorigin="anonymous"></script>
+    </head>
+    <body class="body">
+        <header data-aos="fade-down">
+
+            <a href="../index.html">
+                <img class="header-logo" src="../images/logo01.png">
+            </a>
+    
+            <nav id="navbar">
+                <a onclick="mobileMenu()" href="../index.html#despre">Despre noi</a>
+                <a onclick="mobileMenu()" href="../index.html#evenimente">Evenimente</a>
+    
+                <a onclick="mobileMenu()" href="galerie.html">Galerie</a>
+                <a onclick="mobileMenu()" href="contacte.html">Contacte</a>
+    
+                <i onclick="mobileMenu()" id="hamburger" class="fas fa-bars"></i>
+            </nav>
+    
+        </header>
+    <section class="contacts">
+        <i class="fas fa-envelope i16"></i>
+        <i class="fas fa-users i17"></i>
+        <i class="fas fa-briefcase i18"></i>
+        <i class="fas fa-compass i19"></i>
+        <i class="fas fa-ticket i20"></i>
+    <div class="container1">
+        <div class="col-50">
+            <b>Telefon: </b>
+                <a href="tel:+373 25922183 ">0259-22183</a>
+
+                <br />
+
+                <b>Adresa: </b>
+                <span>Strada Moldovei 5 , or. Fălești</span>
+
+                <br />
+
+                <b>Email: </b>
+                <a href="mailto:sectiaculturamuzeu@gmail.com">sectiaculturamuzeu@gmail.com</a>
+
+                <br />
+            <div class="container">
+                <h3>Lasă un mesaj</h3>
+                <form action="https://api.web3forms.com/submit" method="POST"  id="contact-form">
+                        <input type="hidden" name="access_key" value="900f4b30-bcfb-4407-a492-5dc2256977ea">
+                        <input id="in" type="text" id="name" name="name" required placeholder="Nume Prenume">
+                        <input id="in1" type="email" id="email" name="email" required placeholder="Email">
+                        <textarea id="message" name="message" rows="4" required placeholder="Mesajul"></textarea>
+                    <button type="submit">Trimite</button>
+                </form>
+            </div>
+        </div>
+            <div class="col-50">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2691.479885289889!2d27.709704900000002!3d47.57790730000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40cb6b62c0845a73%3A0xe27802ff8ca96fc4!2sMuseum%20of%20History%20and%20Ethnography%20%22Lazar%20Dubinovschi%22!5e0!3m2!1sru!2s!4v1738073211031!5m2!1sru!2s"
+                        class="harta" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+    </div>
+    </section>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    </body>
+</html>
