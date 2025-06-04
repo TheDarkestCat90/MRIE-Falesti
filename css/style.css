@@ -35,10 +35,7 @@
 }
 
 .event-content{
-  
-  position: relative;
   padding: 20px 30px;
-  height: 260px;
   border-radius: 10px;
   flex: 1;
   display: flex;
