@@ -526,7 +526,7 @@ label {
 }
 
 section{
-  padding: 50px 15% 25px 15%;
+  padding: 50px 5% 25px 5%;
     position: relative;
 }
 @media (max-width: 768px) {
@@ -733,13 +733,13 @@ section{
   animation: icon-anim 3.2s 1.2s infinite;
 }
 .i16 {
-  left: 18%;
+  left: 10%;
   top: 30%;
   animation: icon-anim 2.1s 0.5s infinite;
 }
 .i17 {
-  left: 4%;
-  top: 11%;
+  left: 1%;
+  top: 3%;
   animation: icon-anim 3s 1.4s infinite;
 }
 .i18 {
@@ -754,7 +754,7 @@ section{
 }
 .i20 {
   right: 25%;
-  top: 105%;
+  top: 96%;
   animation: icon-anim 2.8s 0.8s infinite;
 }
 @media (max-width: 768px) {
