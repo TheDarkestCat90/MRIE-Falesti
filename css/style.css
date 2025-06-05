@@ -317,7 +317,6 @@ body > div details div{
 
 
 header {
-  position: fixed;
   display: flex;
   align-items: center;
   background-color: #8686869a;
@@ -568,7 +567,7 @@ iframe {
 .header-logo {
   height: 80px;
 }
-@media (max-width: 768px) {
+@media (max-width: 800px) {
      .header-logo {
        display: none;
   }
@@ -592,9 +591,6 @@ nav a {
 }
 
 @media (max-width: 800px) {
-  header {
-    padding-left: 15px;
-}
 
 nav a {
     display: none;
@@ -608,10 +604,9 @@ nav.mobile a {
     display: block;
     text-align: center;
     margin-bottom: 30px;
-    margin-left: 25vw;
 }
 #navbar.mobile{
-  margin-right: 50%;
+  margin-left: 35%;
 }
 nav.mobile {
   float:none;
